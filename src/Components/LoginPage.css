@@ -1,0 +1,108 @@
+/* Set the body background to light blue */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d0e8f2; /* Light blue background */
+  font-family: Arial, sans-serif;
+}
+
+/* Center the login form in the page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+  background-image: url('https://via.placeholder.com/1500x900'); /* A background image URL */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form container */
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparent background */
+  padding: 40px;
+  width: 60%; /* 60% of the screen width */
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title of the page */
+h2 {
+  color: #2f3d57; /* Darker text color for title */
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Input fields */
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #2f3d57;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0066cc; /* Dark blue on focus */
+  background-color: #ffffff;
+}
+
+/* Login and SignUp button styling */
+button {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  background-color: #0066cc; /* Dark blue */
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d99; /* Darker blue on hover */
+}
+
+/* Already have an account? Text */
+.already-account-text {
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Don't have an account? Text */
+.dont-have-account-text {
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Center the links and button texts */
+.already-account-text, .dont-have-account-text {
+  margin-top: 15px;
+}
+
+button:hover, a:hover {
+  text-decoration: underline;
+}
+
+.sign-up-btn, .login-btn {
+  margin-top: 10px;
+  display: inline-block;
+}
+

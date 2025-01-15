@@ -1,0 +1,79 @@
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 20%;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #2980b9;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; /* To account for the fixed header */
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.description {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  padding: 12px 25px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  background-color: #27ae60;
+}
+
+.Quote {
+  font-size: 130px;
+  text-align: center;
+}

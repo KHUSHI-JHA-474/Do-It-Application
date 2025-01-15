@@ -1,0 +1,19 @@
+/* TaskContainer.css or your form container CSS */
+.task-form {
+  margin-left: 20px; /* To provide some space between form and sidebar */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 60%; /* Adjust form width */
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+/* Add responsiveness if needed */
+@media (max-width: 768px) {
+  .task-form {
+    width: 90%;
+    margin-left: 0;
+  }
+}
